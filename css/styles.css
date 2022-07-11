@@ -86,6 +86,11 @@ body{
     line-height: 1.5;
 }
 .about__cta{
-    display: block;
-    margin-top: 30px;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: var(--color-primary);
+    padding: 20px 40px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 30px;
 }

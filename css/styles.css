@@ -100,11 +100,11 @@ body{
     background-color: var(--color-bg);
 }
 .portfolio__cards{
-
+    display: flex;
 }
 .portfolio__card{
-
+    width: 27%;
 }
 .portfolio__picture{
-    
+    width: 100%;
 }

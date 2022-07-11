@@ -46,6 +46,14 @@ body{
 }
 .hero__texts{
     width: 45%;
+    color: #fff;
+}
+.hero__title{
+    font-size: 4rem;
+}
+.hero__copy{
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
 /* section about */
@@ -58,5 +66,19 @@ body{
 }
 .about{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about__img{
+    width: 45%;
+    text-align: center;
+    margin: 0;
+}
+.about__picture{
+    max-width: 80%;
+}
+.about__texts{
+    width: 50%;
 }
 

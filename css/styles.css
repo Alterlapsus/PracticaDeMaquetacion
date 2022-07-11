@@ -17,3 +17,35 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+.hero{
+    --padding-container: 0;
+    height: 100vh;
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+}
+.hero__main{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+.hero__img{
+    width: 45%;
+    text-align: center;
+    margin: 0;
+}
+.hero__picture{
+    max-width: 80%;
+}
+.hero__texts{
+    width: 45%;
+}
+
+

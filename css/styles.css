@@ -120,6 +120,19 @@ body{
     object-fit: cover;
 }
 .portfolio__texts{
-
+    padding: 40px 20px 30px;
+}
+.portfolio__title{
+    font-size: 1.5rem;
+    color: var(--color-secondary);
+    text-align: center;
+    margin: 0;
+}
+.portfolio__paragraph{
+    font-weight: 300;
+    margin: 30px 0;
+}
+.portfolio__cta{
+    
 }
 

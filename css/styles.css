@@ -101,6 +101,7 @@ body{
 }
 .portfolio__cards{
     display: flex;
+    justify-content: space-evenly;
 }
 .portfolio__card{
     width: 27%;

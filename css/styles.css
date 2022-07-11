@@ -96,5 +96,6 @@ body{
 }
 
 /* section portfolio */
-
-
+.potfolio{
+    background-color: var(--color-bg);
+}

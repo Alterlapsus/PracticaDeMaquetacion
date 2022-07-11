@@ -102,6 +102,8 @@ body{
 .portfolio__cards{
     display: flex;
     justify-content: space-evenly;
+    padding: 40px 0;
+    flex-wrap: wrap;
 }
 .portfolio__card{
     width: 27%;

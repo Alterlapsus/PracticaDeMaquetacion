@@ -107,6 +107,8 @@ body{
 }
 .portfolio__card{
     width: 27%;
+    background-color: #fff ;
+    
 }
 .portfolio__picture{
     width: 100%;

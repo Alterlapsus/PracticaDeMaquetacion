@@ -166,9 +166,11 @@ body{
 .gallery__picture{
     width: 30%;
     height: 250px;
-    display: block;
     margin-bottom: 20px;
+    display: block;
+    border-radius: 5px;
     object-fit: cover;
-    border-radius: 10px;
     box-shadow: var(--box-shadow);
 }
+
+/* section languages */

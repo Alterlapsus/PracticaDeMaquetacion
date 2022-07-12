@@ -145,3 +145,12 @@ body{
 }
 
 /* section copy */
+.copy{
+    background-color: var(--color-primary);
+}
+.copy__texts{
+    --color-primary: #fff;
+}
+.title--margin{
+    margin: 0;
+}

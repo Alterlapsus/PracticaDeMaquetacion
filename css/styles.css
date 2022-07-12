@@ -174,3 +174,15 @@ body{
 }
 
 /* section languages */
+.languages{
+    background-color: var(--color-bg);
+}
+.languages__container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.languages__picture{
+    width: 20%;
+    height: 100px;
+}

@@ -156,3 +156,19 @@ body{
 }
 
 /* section gallery */
+.gallery__container{
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+.gallery__picture{
+    width: 30%;
+    height: 250px;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: var(--box-shadow);
+}

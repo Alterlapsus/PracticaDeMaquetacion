@@ -156,6 +156,10 @@ body{
 }
 
 /* section gallery */
+
+.gallery{
+    background-color: var(--color-bg);
+}
 .gallery__container{
     padding: 20px 0;
     display: flex;
@@ -167,13 +171,12 @@ body{
     width: 30%;
     height: 250px;
     margin-bottom: 20px;
-    display: block;
     border-radius: 5px;
     object-fit: cover;
     box-shadow: var(--box-shadow);
 }
 
-/* section languages */
+/* section language */
 .languages{
     background-color: var(--color-bg);
 }

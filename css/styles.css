@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 *{
-    outline:3px solid red;
+    /* outline:3px solid red; */
 }
 
 :root{
@@ -156,10 +156,6 @@ body{
 }
 
 /* section gallery */
-
-.gallery{
-    background-color: var(--color-bg);
-}
 .gallery__container{
     padding: 20px 0;
     display: flex;

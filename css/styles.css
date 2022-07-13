@@ -174,3 +174,18 @@ body{
     border-radius: 5px;
     box-shadow: var(--box-shadow);
 }
+
+/* languages */
+.languages{
+    background: var(--color-bg);
+}
+.languages__container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.languages__picture{
+    width: 20%;
+    height: 100px;
+}
+

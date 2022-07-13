@@ -145,3 +145,14 @@ body{
     border-radius: 30px;
     font-weight: 300;
 }
+
+/* section copy */
+.copy{
+    background-color: var(--color-primary);
+}
+.copy__texts{
+    --color-primary: #fff;
+}
+.title--margin{
+    margin: 0;
+}

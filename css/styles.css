@@ -156,3 +156,17 @@ body{
 
 /* section gallery */
 
+.gallery__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow: var(--box-shadow);
+}
+.gallery__picture{
+    width: 30%;
+    margin: 20px 0;
+    border-radius: 5px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}

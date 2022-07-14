@@ -321,4 +321,48 @@ body{
 
 /* responsive 550px */
 
+@media screen and (max-width: 550px) {
+    .hero__img{
+        width: 85%;
+    }
+    .hero__picture{
+        max-width: 100%;
+    }
+    .hero__title{
+        font-size: 2.8rem;
+    }
 
+    /* about */
+    .title{
+        font-size: 2.2rem;
+    }
+    .about__texts{
+        width: 100%;
+    }
+    .portfolio__card{
+        width: 90%;
+        max-width: 300px;
+    }
+
+    /* gallery */
+    .gallery__picture{
+        width: 90%;
+        max-width: 300px;
+    }
+    
+    /* languages */
+    .languages__container{
+        justify-content: space-around;
+    }
+    .languages__picture{
+        width: 35%;
+        margin-bottom: 30px;
+    }
+    .footer__img{
+        width: 90%;
+    }
+    .footer__picture{
+        max-width: 330px;
+        margin-bottom: 40px;
+    }
+}

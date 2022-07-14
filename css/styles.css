@@ -59,3 +59,38 @@ body{
     font-weight: 300;
 }
 /* section about */
+.title{
+    font-size: 2.5rem;
+    color: #f77062;
+    text-align: var(--align-title);
+    margin-bottom: 30px;
+    margin: 0;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about__img{
+    width: 45%;
+    text-align: center;
+    margin: 0;
+}
+.about__picture{
+    max-width: 80%;
+}
+.about__texts{
+    width: 50%;
+    --align-title: left;
+}
+.about__cta{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #f77062;
+    padding: 20px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+

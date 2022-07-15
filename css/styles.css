@@ -171,3 +171,17 @@ body{
     display: block;
 }
 
+/* languages */
+.language{
+    background-color: var(--color-bg);
+}
+.language__container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.language__picture{
+    width: 20%;
+    height: 100px;
+}

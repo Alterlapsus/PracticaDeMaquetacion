@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 *{
-    outline:3px solid red;
+    /* outline:3px solid red; */
 }
 
 :root{
@@ -307,5 +307,62 @@ body{
     }
     .footer__texts{
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .hero__img{
+        width: 50%;
+    }
+    .hero__picture{
+        max-width: 100%;
+    }
+    .hero__title{
+        font-size: 2.5rem;
+    }
+    .hero__copy{
+        font-size: 1.3rem;
+    }
+    /* about */
+    .title{
+        font-size: 2.2rem;
+    }
+    .about__texts{
+        width: 100%;
+    }
+    .about__cta{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* section portfolio */
+    .portfolio__card{
+        width: 90%;
+        max-width: 300px;
+    }
+
+    /* section gallery */
+    .gallery__picture{
+        width: 90%;
+        max-width: 300px;
+    }
+
+    /* languages */
+    .language__container{
+        justify-content: space-around;
+    }
+    .language__picture{
+        width: 35%;
+        margin-bottom: 30px;
+    }
+    
+    /* secton footer */
+    .footer__img{
+        width: 90%;
+    }
+    .footer__picture{
+        max-width: 330px;
+        margin-bottom: 40px;
     }
 }

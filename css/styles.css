@@ -238,3 +238,74 @@ body{
 .footer__link:hover{
     text-decoration: none;
 }
+
+@media screen and (max-width: 800px) {
+    .hero{
+        height: auto;
+        min-height: 100vh;
+        --padding-container: 40px 0;
+    }
+    .hero__main{
+        justify-content: center;
+    }
+    .hero__img{
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    .hero__picture{
+        max-width: 85%;
+    }
+    .hero__texts{
+        width: 100%;
+        text-align: center;
+    }
+    .hero__title{
+        font-size: 3rem;
+    }
+
+    /* section about */
+    .about__texts{
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        --align-title: center;
+    }
+    .about__paragraph{
+        text-align: left;
+    }
+    .about__img{
+        width: 100%;
+    }
+
+    /* portfolio */
+    .portfolio__card{
+        width: 45%;
+        margin-bottom: 30px;
+    }
+
+    /* section gallery */
+    .gallery__picture{
+        width: 45%;
+    }
+
+    /* section languages */
+    .language__container{
+        justify-content: space-between;
+    }
+
+    .footer__container{
+        flex-direction: column;
+    }
+    .footer__img{
+        order: -1;
+        width: 45%;
+        margin-bottom: 30px;
+    }
+    .footer__picture{
+        width: 100%;
+    }
+    .footer__texts{
+        width: 100%;
+    }
+}

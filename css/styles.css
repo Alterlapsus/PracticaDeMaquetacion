@@ -160,7 +160,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    box-shadow: var(--box-shadow);
 }
 .gallery__picture{
     width: 30%;
@@ -169,6 +168,7 @@ body{
     height: 250px;
     object-fit: cover;
     display: block;
+    box-shadow: var(--box-shadow);
 }
 
 /* languages */
